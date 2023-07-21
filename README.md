@@ -29,3 +29,7 @@ Install packages in the virtual env:
 pip install -r requirements.txt
 ```
 
+Update dependencies: 
+```
+pip freeze > requirements.txt
+```
