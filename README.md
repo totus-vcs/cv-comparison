@@ -12,15 +12,20 @@ Comparison:
 ## Setup virtual python environemnt
 
 Create virtual env (in terminal - working in base git directory) 
-```python3 -m venv venv```
+```
+python3 -m venv venv
+```
 
 Virtual environment will be excluded from being pushed into repository. 
 
 Activate virtual env: 
-``` source venv/bin/activate # Linux/macos
+```
+source venv/bin/activate # Linux/macos
 venv\Scripts\activate # Windows
 ```
 
 Install packages in the virtual env: 
-``` pip install -r requirements.txt ```
+``` 
+pip install -r requirements.txt
+```
 
